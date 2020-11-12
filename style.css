@@ -1,0 +1,269 @@
+body {
+    background-color: black;
+    color: white; 
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: hidden;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    padding: 0px 0px 0px 0px;
+}
+
+/* Transitions */
+.transition-fade {
+    opacity: 1;
+    transition: 0.4s;
+    transform: translateX(0);
+    transform-origin: left;
+}
+html.is-animating .transition-fade {
+    opacity: 0;
+    transform: translateX(100%);
+}
+html.is-leaving .transition-fade {
+    opacity: 0;
+    transform: translateX(0);
+}
+
+/* transition for sidebar */
+.transition-nothing {
+    opacity: 1;
+    transition: 0.1s;
+}
+html.is-animating .transition-nothing {
+    opacity: 0;
+}
+
+/*General sidebar */
+.sidebar{
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    height: 500px;
+    width: 170px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    padding-top: 250px;
+    margin-left: 30px;
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    word-spacing: -10px;
+    padding: 6px 8px 10px 16px;
+    display: block;
+}
+.sidebar a:hover {
+    color: red;
+    /*background-image: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(252, 2, 2, 0.3));*/
+    border-radius: 5px;
+    border:2px solid  rgba(70, 70, 70, 0.4);
+}
+.sidebar a1 {
+    font-size: 20px;
+    margin-left: 20px;
+}
+.sidebar b {
+    margin-left: 15px;
+    font-size: 30px;
+}
+/* CHAPTER 1 */
+.TitleBar h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.mainImage {
+    text-align: center;
+}
+.month1 u{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 30px;
+    position: fixed;
+}
+.month1 p{
+    height: 43%;
+    width: 400px;
+    margin-left: 450px;
+    margin-top: 60px;
+    position: fixed;
+    text-align: center;
+    font-size: 18px;
+    border:5px solid  rgba(70, 70, 70, 0.3);
+    background-color: rgb(12, 12, 12);
+    border-radius: 5px;
+    padding: 15px;
+}
+.month2 u {
+    font-size: 23px;
+    text-align: center;
+    margin-left: 1200px;
+    margin-top: 30px;
+    position: fixed;
+}
+.month2 p{
+    height: 90%;
+    width: 400px;
+    margin-left: 1030px;
+    margin-top: 60px;
+    position: fixed;
+    text-align: center;
+    font-size: 18px;
+    border:5px solid  rgba(70, 70, 70, 0.3);
+    background-color: rgb(12, 12, 12);
+    border-radius: 5px;
+    padding: 15px;
+}
+/* CHAPTER 2 */
+.month3 p{
+    height: 70%;
+    width: 400px;
+    margin-left: 450px;
+    margin-top: 60px;
+    position: fixed;
+    text-align: center;
+    font-size: 18px;
+    border:5px solid  rgba(70, 70, 70, 0.3);
+    background-color: rgb(12, 12, 12);
+    border-radius: 5px;
+    padding: 15px;
+}
+.month3 u{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 30px;
+    position: fixed;
+}
+.month3 p1 {
+    color: red;
+    position: center;
+    height: 70%;
+    width: 400px;
+    margin-left: 470px;
+    margin-top: 320px;
+    position: fixed;
+    text-align: center;
+    font-size: 18px;
+}
+.bioleft {
+    position: relative;
+    float: left;
+    left: 250px;
+    top: 300px;
+}
+.bioright {
+    position: relative;
+    float: left;
+    left: 710px;
+    top: 300px;
+}
+
+.otherEvents1 u {
+    font-size: 23px;
+    text-align: center;
+    margin-left: 1220px;
+    margin-top: 30px;
+    position: fixed;
+}
+.otherEvents1 p{
+    height: 58%;
+    width: 400px;
+    margin-left: 1080px;
+    margin-top: 60px;
+    position: fixed;
+    text-align: center;
+    font-size: 18px;
+    border:5px solid  rgba(70, 70, 70, 0.3);
+    background-color: rgb(12, 12, 12);
+    border-radius: 5px;
+    padding: 15px;
+}
+.supportleft {
+    position: relative;
+    float: left;
+    left: 1100px;
+    top: -20px;  
+}
+.supportright {
+    position: relative;
+    float: left;
+    left: 1380px;
+    top: -20px;
+}
+
+/* Chapter 3*/
+.mainImageChap3 {
+    margin-left: 430px;
+
+}
+.democrats {
+    margin-left: 1070px;
+    margin-top: -305px;
+    position: fixed;
+}
+
+.month4 p{
+    height: 87%;
+    width: 450px;
+    margin-left: 400px;
+    margin-top: 50px;
+    position: fixed;
+    text-align: center;
+    font-size: 18px;
+    border:5px solid  rgba(70, 70, 70, 1);
+    background: linear-gradient(rgba(12, 12, 12, .7), rgba(12, 12, 12, .7)), url(/images/chinaarmy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.month4 u{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 20px;
+    position: fixed;
+}
+
+.otherEvents2 u {
+    font-size: 23px;
+    text-align: center;
+    margin-left: 1220px;
+    margin-top: 20px;
+    position: fixed;
+}
+.otherEvents2 p{
+    height: 55%;
+    width: 400px;
+    margin-left: 1080px;
+    margin-top: 50px;
+    position: fixed;
+    text-align: center;
+    font-size: 18px;
+    border:5px solid  rgba(70, 70, 70, 0.3);
+    background-color: rgb(12, 12, 12);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* this button causes aids */
+.button1 {
+    background-color: transparent;
+    border: 2px transparent;
+    padding: 4px 5px;
+    font-size: 16px;
+    margin-left: 1720px;
+    position: static;
+}
+.button1:hover {
+    background-color: red;
+}
