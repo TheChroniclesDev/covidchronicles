@@ -255,6 +255,49 @@ html.is-animating .transition-nothing {
     padding: 15px;
 }
 
+/* Chapter 4 */
+.month5 p{
+        height: 78%;
+        width: 500px;
+        margin-left: 380px;
+        margin-top: 60px;
+        position: fixed;
+        text-align: center;
+        font-size: 18px;
+        border:5px solid  rgba(70, 70, 70, 0.3);
+        background-color: rgb(12, 12, 12);
+        border-radius: 5px;
+        padding: 15px;
+}
+.month5 u{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 20px;
+    position: fixed;
+}
+.otherEvents3 u {
+    font-size: 23px;
+    text-align: center;
+    margin-left: 1220px;
+    margin-top: 20px;
+    position: fixed;
+}
+.otherEvents3 p{
+    height: 38%;
+    width: 400px;
+    margin-left: 1080px;
+    margin-top: 60px;
+    position: fixed;
+    text-align: center;
+    font-size: 18px;
+    border:5px solid  rgba(70, 70, 70, 0.3);
+    background-color: rgb(12, 12, 12);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
 /* this button causes aids */
 .button1 {
     background-color: transparent;
